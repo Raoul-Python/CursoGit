@@ -10,7 +10,7 @@ class Game:
         self.__screen = pygame.display.set_mode((640, 480)) #Indicamos tammaño de la pantalla en una tupla
 
         #Título de la pantsalla
-        pygame.display.set_caption("Carrera de Tortugas")
+        pygame.display.set_caption("Competición de Tortugas")
 
         #Cargamos imagen de fondo con un atributo
         self.background = pygame.image.load("D:\pistadecarreras.jpg")
